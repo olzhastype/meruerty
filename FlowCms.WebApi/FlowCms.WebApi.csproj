@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Elastic.Clients.Elasticsearch" Version="8.1.0-preview.1.24373.2" />
+    <PackageReference Include="Aspire.StackExchange.Redis" Version="8.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.1" />
+	  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\FlowCms.Core\FlowCms.Core.csproj" />
+    <ProjectReference Include="..\Core\FlowCms.Infrastructure\FlowCms.Infrastructure.csproj" />
+    <ProjectReference Include="..\FlowCms.ServiceDefaults\FlowCms.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

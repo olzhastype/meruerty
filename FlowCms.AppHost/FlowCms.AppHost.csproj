@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsAspireHost>true</IsAspireHost>
+		<UserSecretsId>87c738db-9a7c-4210-b712-acecb7813fbb</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.Elasticsearch" Version="8.1.0-preview.1.24373.2" />
+		<PackageReference Include="Aspire.Hosting.Kafka" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.MongoDB" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.NodeJs" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.1.0" />
+		<PackageReference Include="Aspire.Hosting.Redis" Version="8.1.0" />
+		<PackageReference Include="Aspire.MongoDB.Driver" Version="8.1.0" />
+		<PackageReference Include="Aspire.Npgsql" Version="8.1.0" />
+		<PackageReference Include="Aspire.StackExchange.Redis" Version="8.1.0" />
+		<PackageReference Include="Aspire.StackExchange.Redis.DistributedCaching" Version="8.1.0" />
+		<PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" Version="8.1.0" />
+		<PackageReference Include="System.Text.Json" Version="9.0.0-preview.6.24327.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FlowCms.WebApi\FlowCms.WebApi.csproj" />
+	</ItemGroup>
+
+</Project>
